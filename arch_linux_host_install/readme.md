@@ -49,7 +49,7 @@ So if theres boot menu option choose non-uefi.
   `mkfs.ext4 /dev/sda1`
 * mount the new partition</br>
   `mount /dev/sda1 /mnt`
-* choose geographicly close mirror, `dd` deletes entire line in vim</br>
+* choose geographically close mirror, `dd` deletes entire line in vim</br>
   `vim /etc/pacman.d/mirrorlist` 
 * install the base system </br>
   `pacstrap /mnt base linux linux-firmware base-devel grub vim`
